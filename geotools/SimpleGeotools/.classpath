@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre"/>
 	<classpathentry kind="lib" path="D:/work/geotools/WebRoot/WEB-INF/lib/gt-api-12.2.jar"/>
 	<classpathentry kind="lib" path="D:/work/geotools/WebRoot/WEB-INF/lib/gt-shapefile-12.2.jar"/>
+	<classpathentry kind="lib" path="D:/work/geotools/WebRoot/WEB-INF/lib/gt-geometry-12.2.jar"/>
+	<classpathentry kind="lib" path="D:/work/geotools/WebRoot/WEB-INF/lib/gt-swing-12.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
