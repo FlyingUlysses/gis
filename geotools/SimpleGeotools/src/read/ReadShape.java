@@ -20,7 +20,7 @@ public class ReadShape {
     public static void main(String[] args) {  
         ShapefileDataStoreFactory dataStoreFactory = new ShapefileDataStoreFactory();  
         try {  
-            ShapefileDataStore sds = (ShapefileDataStore)dataStoreFactory.createDataStore(new File("C:\\Users\\k\\Desktop\\shape\\CHN_adm1.shp").toURI().toURL());  
+            ShapefileDataStore sds = (ShapefileDataStore)dataStoreFactory.createDataStore(new File("C:\\Users\\k\\Desktop\\shape\\CHN_adm2.shp").toURI().toURL());  
             sds.setCharset(Charset.forName("GBK"));  
             SimpleFeatureSource featureSource = sds.getFeatureSource();  
             SimpleFeatureIterator itertor = featureSource.getFeatures().features();  

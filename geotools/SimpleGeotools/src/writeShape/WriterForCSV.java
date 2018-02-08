@@ -72,7 +72,7 @@ public class WriterForCSV {
             /*数据文件的第一行是头文件*/ 
             String line = reader.readLine();
             System.out.println("Header: " + line);
-            Point point = geometryFactory.createPoint(new Coordinate(39.26, 117.30));
+            Point point = geometryFactory.createPoint(new Coordinate(116.46, 39.92));
 
             featureBuilder.add(point);
             featureBuilder.add("test");
